@@ -55,3 +55,8 @@ void MainWindow::on_mbt1_clicked()
 {
 
 }
+
+void MainWindow::on_exit_clicked()
+{
+    close();
+}

@@ -19,6 +19,8 @@ public:
 private slots:
     void on_mbt1_clicked();
 
+    void on_exit_clicked();
+
 private:
     Ui::MainWindow *ui;
     Ui::MainWindow *ui1;
