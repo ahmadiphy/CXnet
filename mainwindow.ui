@@ -48,8 +48,8 @@
    <widget class="QPushButton" name="mbt1">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>430</y>
+      <x>310</x>
+      <y>470</y>
       <width>99</width>
       <height>27</height>
      </rect>
@@ -84,22 +84,22 @@
      <string>Degree Distribution:</string>
     </property>
    </widget>
-   <widget class="QTabWidget" name="tabWidget">
+   <widget class="QTabWidget" name="NetTypes">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
       <x>22</x>
-      <y>30</y>
+      <y>80</y>
       <width>501</width>
       <height>381</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>4</number>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="ER_tab">
      <attribute name="title">
       <string>ER</string>
      </attribute>
@@ -113,10 +113,10 @@
        </rect>
       </property>
       <property name="text">
-       <string>Avrage Connectivity</string>
+       <string>Average Connectivity</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="AvgC">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -126,31 +126,8 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>70</y>
-        <width>131</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Network Size</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
-      <property name="geometry">
-       <rect>
-        <x>180</x>
-        <y>80</y>
-        <width>113</width>
-        <height>25</height>
-       </rect>
-      </property>
-     </widget>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="SF_tab">
      <attribute name="title">
       <string>SF</string>
      </attribute>
@@ -167,19 +144,6 @@
        <string>Exponent</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_10">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>70</y>
-        <width>121</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Network Size</string>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="lineEdit_5">
       <property name="geometry">
        <rect>
@@ -190,18 +154,8 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_6">
-      <property name="geometry">
-       <rect>
-        <x>180</x>
-        <y>80</y>
-        <width>113</width>
-        <height>25</height>
-       </rect>
-      </property>
-     </widget>
     </widget>
-    <widget class="QWidget" name="tab_3">
+    <widget class="QWidget" name="WS_tab">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -209,7 +163,7 @@
       <string>WS</string>
      </attribute>
     </widget>
-    <widget class="QWidget" name="tab_5">
+    <widget class="QWidget" name="Reg_tab">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -217,7 +171,7 @@
       <string>Reg</string>
      </attribute>
     </widget>
-    <widget class="QWidget" name="tab_4">
+    <widget class="QWidget" name="HMN_tab">
      <attribute name="title">
       <string>HMNs</string>
      </attribute>
@@ -234,19 +188,6 @@
        <string>Module Size</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>70</y>
-        <width>121</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Network Size</string>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="lineEdit_3">
       <property name="geometry">
        <rect>
@@ -257,21 +198,11 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
-      <property name="geometry">
-       <rect>
-        <x>180</x>
-        <y>80</y>
-        <width>113</width>
-        <height>25</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_8">
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>130</y>
+        <y>70</y>
         <width>81</width>
         <height>17</height>
        </rect>
@@ -284,7 +215,7 @@
       <property name="geometry">
        <rect>
         <x>110</x>
-        <y>130</y>
+        <y>70</y>
         <width>71</width>
         <height>23</height>
        </rect>
@@ -297,7 +228,7 @@
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>130</y>
+        <y>70</y>
         <width>71</width>
         <height>23</height>
        </rect>
@@ -310,7 +241,7 @@
       <property name="geometry">
        <rect>
         <x>270</x>
-        <y>130</y>
+        <y>70</y>
         <width>111</width>
         <height>23</height>
        </rect>
@@ -338,8 +269,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>0</y>
-      <width>181</width>
+      <y>40</y>
+      <width>111</width>
       <height>31</height>
      </rect>
     </property>
@@ -368,6 +299,29 @@
     </property>
     <property name="text">
      <string>Network Informations:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="NetSize_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Network Size</string>
     </property>
    </widget>
   </widget>
